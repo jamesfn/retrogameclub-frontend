@@ -131,6 +131,7 @@ a, a:hover, a:focus, a:active {
 
 .row {
     padding: 1rem;
+    font-size: 1.2rem;
 }
 
 .title {
@@ -162,16 +163,24 @@ a, a:hover, a:focus, a:active {
 
 .navbutton1 {
     background: linear-gradient(to right, black 50%, grey 50%);
-    background-size: 200% 100%;
+    background-size: 201% 100%;
     background-position: left bottom;
     padding: .5rem;
 }
 
 .navbutton2 {
     background: linear-gradient(to right, grey 50%, black 50%);
-    background-size: 200% 100%;
+    background-size: 201% 100%;
     background-position: right bottom;
     padding: .5rem;
+}
+
+.credlink1:hover {
+    color: yellow;
+}
+
+.credlink2:hover {
+    color: red;
 }
 
 .title-text:hover {
@@ -186,4 +195,62 @@ a, a:hover, a:focus, a:active {
 .navbutton2:hover {
     background-position: left bottom;
     transition: all .5s ease;
+}
+
+@media only screen and (min-width: 600px) {
+    .gamedesc {
+        font-size: 1.5rem;
+    }
+
+    .cardbody1 {
+        font-size: 1.5rem;
+    }
+    
+    .cardbody2 {
+        font-size: 1.5rem;
+    }
+    
+    .cardbody3 {
+        font-size: 1.5rem;
+    }
+
+    .cardhead1 {
+        font-size: 1.5rem;
+    }
+    
+    .cardhead2 {
+        font-size: 1.5rem;
+    }
+    
+    .cardhead3 {
+        font-size: 1.5rem;
+    }
+
+    .deadline {
+        font-size: 1.7rem;
+    }
+
+    .gametitle {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .gamedesc {
+        font-size: 1.8rem;
+    }
+
+    .deadline {
+        font-size: 2rem;
+    }
+
+    .gametitle {
+        font-size: 2.3rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        font-size: 5vw;
+    }
 }
