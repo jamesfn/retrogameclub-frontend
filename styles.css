@@ -24,7 +24,7 @@ a, a:hover, a:focus, a:active {
 }
 
 .badgebig {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .badgebody {
@@ -84,7 +84,7 @@ a, a:hover, a:focus, a:active {
     background-color: lightcoral;
     font-family: 'Kdam Thmor Pro', sans-serif;
     font-size: 1rem;
-    width: 25%;
+    width: 35%;
 }
 
 .badgeplace {
@@ -324,7 +324,7 @@ a, a:hover, a:focus, a:active {
 
 @media only screen and (min-width: 600px) {
     .badgenum {
-        width: 15%;
+        width: 20%;
     }
 
     .gamedesc {
@@ -397,9 +397,15 @@ a, a:hover, a:focus, a:active {
     .badgename {
         font-size: .8rem;
         padding-left: 1vw;
-        overflow: hidden;
+        overflow-x: auto;
         justify-content: left;
         white-space: nowrap;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    .badgename::-webkit-scrollbar {
+        display: none;
     }
 
     .badgenum {
