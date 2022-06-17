@@ -1,6 +1,7 @@
 html {
     background-color: black;
     color: white;
+    box-sizing: border-box;
 }
 
 body {
@@ -20,6 +21,10 @@ img {
 a, a:hover, a:focus, a:active {
     text-decoration: none;
     color: inherit;
+}
+
+.badgebig {
+    font-size: 3rem;
 }
 
 .badgebody {
@@ -46,18 +51,21 @@ a, a:hover, a:focus, a:active {
 }
 
 .badgename {
+    width: 50%;
     float: left;
     border-top: 1px solid;
     border-bottom: 1px solid;
     border-right: 1px solid;
-    padding-left: .5vw;
-    padding-right: 3vw;
     height: 100%;
+    padding-left: 1vw;
+    padding-right: 2vw;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     color: black;
     background-color: whitesmoke;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 1.5rem;
 }
 
 .badgenum {
@@ -66,12 +74,17 @@ a, a:hover, a:focus, a:active {
     border-bottom: 1px solid;
     border-right: 1px solid;
     border-radius: 0rem 1rem 1rem 0rem;
+    padding-left: .5vw;
+    padding-right: 1vw;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     color: black;
-    background-color: lightgoldenrodyellow;
+    background-color: lightcoral;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 1rem;
+    width: 25%;
 }
 
 .badgeplace {
@@ -160,11 +173,56 @@ a, a:hover, a:focus, a:active {
     font-size: 1.3rem;
 }
 
+.gamecard {
+    height: 12rem;
+    display: flex;
+    justify-content: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 1.3rem;
+}
+
 .gamedesc {
     font-size: 1rem;
     margin: 0rem;
     padding-left: 12vw;
     padding-right: 12vw;
+}
+
+.gamedate {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: orchid;
+    border: 1px solid black;
+    color: black;
+    box-sizing: border-box;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.gameimg {
+    height: 100%;
+    border-radius: 3rem 0rem 0rem 3rem;
+}
+
+.gamename {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    border: 1px solid red;
+    color: red;
+    text-align: center;
+    box-sizing: border-box;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.gameplat {
+    border-radius: 0rem 3rem 3rem 0rem;
 }
 
 .hours {
@@ -265,6 +323,10 @@ a, a:hover, a:focus, a:active {
 }
 
 @media only screen and (min-width: 600px) {
+    .badgenum {
+        width: 15%;
+    }
+
     .gamedesc {
         font-size: 1.5rem;
     }
@@ -319,6 +381,52 @@ a, a:hover, a:focus, a:active {
 @media only screen and (max-width: 600px) {
     .navbar {
         font-size: 5vw;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .badgebig {
+        font-size: 1.5rem;
+    }
+
+    .badgecard {
+        height: 2rem;
+        width: 95%;
+    }
+
+    .badgename {
+        font-size: .8rem;
+        padding-left: 1vw;
+        overflow: hidden;
+        justify-content: left;
+        white-space: nowrap;
+    }
+
+    .badgenum {
+        font-size: 1rem;
+        padding-right: .5vw;
+    }
+
+    .badgeplace {
+        width: 2.5rem;
+    }
+
+    .gamecard {
+        height: 6rem;
+        font-size: 1rem;
+    }
+
+    .gamedate {
+        border-radius: 0rem 0rem 3rem 0rem;
+    }
+
+    .gameplat {
+        height: 50%;
+        align-items:
+    }
+    
+    .gameimg {
+        height: 100%;
     }
 }
 
