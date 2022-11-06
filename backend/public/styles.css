@@ -1,0 +1,626 @@
+html {
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0rem;
+}
+
+p {
+    margin: 0rem;
+    padding: 1rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.badgebig {
+    font-size: 2.5rem;
+}
+
+.badgebit {
+    padding-right: .3rem;
+    padding-bottom: .3rem;
+}
+
+.badgebody {
+    display: block;
+}
+
+.badgecard {
+    text-align: center;
+    width: 100%;
+    float: left;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .3rem;
+    margin-bottom: 0rem;
+    margin-top: .4rem;
+    user-select: none;
+}
+
+.badgeimg {
+    float: left;
+    height: 100%;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-radius: 1rem 0rem 0rem 1rem;
+}
+
+.badgename {
+    width: 50%;
+    float: left;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    height: 100%;
+    padding-left: 1vw;
+    padding-right: 2vw;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: black;
+    background-color: #a1a1a1;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 1.5rem;
+}
+
+.badgenum {
+    float: right;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    border-radius: 0rem 1rem 1rem 0rem;
+    padding-left: .5vw;
+    padding-right: 1vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: #755ba8;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 1.5rem;
+    width: 35%;
+}
+
+.badgeplace {
+    width: 3rem;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.badgehead {
+    font-size: 2rem;
+    font-weight: bold;
+    background-image : linear-gradient(to top, 
+                    rgba(255,255,255, 0), 
+                    rgb(0, 0, 0) 75%);
+}
+
+.badges {
+    font-size: 1rem;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    color: yellow;
+    background-image: url(images/other/space.jpg);
+    background-size: cover;
+    display: block;
+    padding-bottom: 2rem;
+}
+
+.badgezone {
+    height: 100%;
+    width: 65%;
+    margin: 0 auto;
+    padding-top: .3rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #8cccde;
+    border-radius: 0rem 0rem 2rem 2rem;
+    overflow: hidden;
+}
+
+.cardhead1 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: darkslategrey;
+    border: 4px solid;
+    border-color: darkslategrey;
+    background-color: #772f1a;
+    background-image: linear-gradient(315deg, #772f1a 0%, #f2a65a 74%);
+}
+
+.cardhead2 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: darkslategrey;
+    border: 4px solid;
+    border-color: darkslategrey;
+    background-color: #b8c6db;
+    background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+}
+
+.cardhead3 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: darkslategrey;
+    border: 4px solid;
+    border-color: darkslategrey;
+    background-color: #fbb034;
+    background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+}
+
+.cardbody1, .cardbody2, .cardbody3 {
+    font-size: .8rem;
+    border-left: 4px solid;
+    border-right: 4px solid;
+    border-color: darkslategrey;
+    padding: 1rem;
+}
+
+.currenthead {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+    color: darkslategrey;
+    background-color: #2f4353;
+    background-image: linear-gradient(315deg, #2f4353 0%, #d2ccc4 74%);
+    text-align: center;
+}
+
+.current {
+    font-size: 1.6rem;
+    font-family: 'Bebas Neue', cursive;
+    color: darkslategrey;
+    background-image: url(images/other/metal.jpg);
+    background-size: cover;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.currentdev {
+    border: 20px solid transparent;
+    border-radius: 2rem 2rem 2rem 2rem;
+    box-sizing: border-box;
+    background: #b8c6df;
+    background: -moz-linear-gradient(top, #828282 0%, #a8a8a8 100%);
+    background: -webkit-linear-gradient(top, #828282 0%, #a8a8a8 100%);
+    background: linear-gradient(to bottom, #828282 0%, #a8a8a8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8c6df', endColorstr='#6d88b7',GradientType=0 );
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    margin-right: 1vw;
+}
+
+.currentinfo {
+    border: 20px solid transparent;
+    border-radius: 2rem 2rem 2rem 2rem;
+    box-sizing: border-box;
+    background: #b8c6df;
+    background: -moz-linear-gradient(top, #828282 0%, #a8a8a8 100%);
+    background: -webkit-linear-gradient(top, #828282 0%, #a8a8a8 100%);
+    background: linear-gradient(to bottom, #828282 0%, #a8a8a8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8c6df', endColorstr='#6d88b7',GradientType=0 );
+    width: fit-content;
+    display: block;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.currentppl {
+    display: flex;
+    justify-content: center;
+}
+
+.currentpub {
+    border: 20px solid transparent;
+    border-radius: 2rem 2rem 2rem 2rem;
+    box-sizing: border-box;
+    background: #b8c6df;
+    background: -moz-linear-gradient(top, #828282 0%, #a8a8a8 100%);
+    background: -webkit-linear-gradient(top, #828282 0%, #a8a8a8 100%);
+    background: linear-gradient(to bottom, #828282 0%, #a8a8a8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8c6df', endColorstr='#6d88b7',GradientType=0 );
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    margin-left: 1vw;
+}
+
+.deadline {
+    font-size: 1.3rem;
+}
+
+.gamebig {
+    border: 20px solid transparent;
+    border-image: url(images/other/metalframe.png) 30 stretch;
+    border-radius: 2rem 2rem 2rem 2rem;
+    box-sizing: border-box;
+    background-color: silver;
+    margin-bottom: 1rem;
+}
+
+.gamecard {
+    height: 12rem;
+    display: flex;
+    justify-content: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 1.3rem;
+    margin-bottom: .5rem;
+}
+
+.justcard {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.linkspan {
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.gamedesc {
+    font-size: 1rem;
+    border: 20px solid transparent;
+    border-radius: 2rem 2rem 2rem 2rem;
+    box-sizing: border-box;
+    background: #b8c6df;
+    background: -moz-linear-gradient(top, #828282 0%, #a8a8a8 100%);
+    background: -webkit-linear-gradient(top, #828282 0%, #a8a8a8 100%);
+    background: linear-gradient(to bottom, #828282 0%, #a8a8a8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8c6df', endColorstr='#6d88b7',GradientType=0 );
+    width: 75ch;
+    display: block;
+    margin: auto;
+    padding: 0rem;
+}
+
+.gamedate {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #755ba8;
+    border: 1px solid black;
+    color: black;
+    box-sizing: border-box;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.gameimg {
+    height: 100%;
+    border-radius: 3rem 0rem 0rem 3rem;
+}
+
+.gamename {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    border: 1px solid red;
+    color: red;
+    text-align: center;
+    box-sizing: border-box;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.gameplat {
+    border-radius: 0rem 3rem 3rem 0rem;
+}
+
+.gametitle {
+    border: 3px solid darkslategrey;
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.hours {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    color: darkslategrey;
+    background-color: #fee2f8;
+    background-image: linear-gradient(315deg, #fee2f8 0%, #dcf8ef 74%);
+}
+
+.hourbody {
+    display: table;
+    width: 100%;
+}
+
+.hourcard {
+    float: left;
+    width: 33.333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333%
+}
+
+.row {
+    font-size: 1.2rem;
+    border: 20px solid transparent;
+    border-radius: 2rem 2rem 2rem 2rem;
+    box-sizing: border-box;
+    background: #b8c6df;
+    background: -moz-linear-gradient(top, black 0%, grey 100%);
+    background: -webkit-linear-gradient(top, #828282 0%, black 100%);
+    background: linear-gradient(to bottom, black 0%, #161636 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8c6df', endColorstr='#6d88b7',GradientType=0 );
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    width: fit-content;
+}
+
+.title {
+    font-size: 5vw;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0rem;
+    padding-bottom: 1rem;
+}
+
+.title-text {
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+}
+
+.navbar {
+    font-size: 3vw;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0rem;
+    padding-top: 0rem;
+    padding-bottom: 1.5rem;
+}
+
+.navbutton1, .navbutton2, .navd {
+    display: inline;
+    text-align: center;
+}
+
+.navbutton1 {
+    background: linear-gradient(to right, black 50%, grey 50%);
+    background-size: 201% 100%;
+    background-position: left bottom;
+    padding: .5rem;
+}
+
+.navbutton2 {
+    background: linear-gradient(to right, grey 50%, black 50%);
+    background-size: 201% 100%;
+    background-position: right bottom;
+    padding: .5rem;
+}
+
+.navd {
+    color: red;
+    font-weight: bolder;
+}
+
+.credlink1:hover {
+    color: yellow;
+}
+
+.credlink2:hover {
+    color: goldenrod;
+}
+
+.title-text:hover {
+    color: grey;
+}
+
+.navbutton1:hover {
+    background-position: right bottom;
+    transition: all .5s ease;
+}
+
+.navbutton2:hover {
+    background-position: left bottom;
+    transition: all .5s ease;
+}
+
+@media only screen and (min-width: 600px) {
+    .badgenum {
+        width: 20%;
+    }
+
+    .gamedesc {
+        font-size: 1.5rem;
+    }
+
+    .cardbody1 {
+        font-size: 1.5rem;
+    }
+    
+    .cardbody2 {
+        font-size: 1.5rem;
+    }
+    
+    .cardbody3 {
+        font-size: 1.5rem;
+    }
+
+    .cardhead1 {
+        font-size: 1.5rem;
+    }
+    
+    .cardhead2 {
+        font-size: 1.5rem;
+    }
+    
+    .cardhead3 {
+        font-size: 1.5rem;
+    }
+
+    .deadline {
+        font-size: 1.7rem;
+    }
+
+    .gametitle {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    .badgeplace {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .gamedesc {
+        font-size: 1.8rem;
+    }
+
+    .deadline {
+        font-size: 2rem;
+    }
+
+    .gametitle {
+        font-size: 2.3rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    p {
+        padding: .5rem;
+    }
+
+    .currenthead {
+        font-size: 1.5rem;
+    }
+
+    .currentppl {
+        font-size: 1rem;
+    }
+
+    .navbar {
+        font-size: 5vw;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .badgebig {
+        font-size: 1.5rem;
+    }
+
+    .badgebit {
+        height: 2rem;
+    }
+
+    .badgecard {
+        height: 2rem;
+        width: 95%;
+    }
+
+    .badgename {
+        font-size: .8rem;
+        padding-left: 1vw;
+        overflow-x: auto;
+        justify-content: left;
+        white-space: nowrap;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    .badgename::-webkit-scrollbar {
+        display: none;
+    }
+
+    .badgenum {
+        font-size: 1rem;
+        padding-right: .5vw;
+    }
+
+    .badgeplace {
+        width: 2.5rem;
+    }
+
+    .badgezone {
+        height: auto;
+    }
+
+    .gamecard {
+        height: 6rem;
+        font-size: 1rem;
+    }
+
+    .gamedate {
+        border-radius: 0rem 0rem 3rem 0rem;
+    }
+
+    .gamedesc {
+        width: fit-content;
+    }
+
+    .gameplat {
+        height: 50%;
+    }
+    
+    .gameimg {
+        height: 100%;
+    }
+}
+
+@media screen and (pointer: coarse) {
+    .navbutton1, .navbutton2 {
+        background: black;
+    }
+
+    .navbutton1:active, .navbutton2:active {
+        color: green;
+        transition: all;
+    }
+    
+    .credlink1:hover {
+        color: inherit;
+    }
+    
+    .credlink2:hover {
+        color: inherit;
+    }
+    
+    .title-text:hover {
+        color: inherit;
+    }
+
+    .credlink1:active {
+        color: red;
+    }
+    
+    .credlink2:active {
+        color: yellow;
+    }
+    
+    .title-text:active {
+        color: red;
+    }
+}

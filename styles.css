@@ -115,10 +115,10 @@ a:active {
 
 .badges {
   font-size: 1rem;
-  font-family: "Bebas Neue", cursive;
+  font-family: "Gamja Flower", cursive;
   text-align: center;
-  color: yellow;
-  background-image: url(images/other/space.jpg);
+  color: rgb(255, 255, 255);
+  background-image: url(images/other/dirt.jpg);
   background-size: cover;
   display: block;
   padding-bottom: 2rem;
@@ -142,9 +142,9 @@ a:active {
 .cardhead1 {
   font-size: 1rem;
   font-weight: bold;
-  color: darkslategrey;
+  color: rgb(78, 43, 0);
   border: 4px solid;
-  border-color: darkslategrey;
+  border-color: rgb(78, 43, 0);
   background-color: #772f1a;
   background-image: linear-gradient(315deg, #772f1a 0%, #f2a65a 74%);
 }
@@ -152,9 +152,9 @@ a:active {
 .cardhead2 {
   font-size: 1rem;
   font-weight: bold;
-  color: darkslategrey;
+  color: rgb(107, 107, 107);
   border: 4px solid;
-  border-color: darkslategrey;
+  border-color: rgb(107, 107, 107);
   background-color: #b8c6db;
   background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
 }
@@ -162,9 +162,9 @@ a:active {
 .cardhead3 {
   font-size: 1rem;
   font-weight: bold;
-  color: darkslategrey;
+  color: rgb(255, 0, 0);
   border: 4px solid;
-  border-color: darkslategrey;
+  border-color: rgb(255, 0, 0);
   background-color: #fbb034;
   background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
 }
@@ -173,27 +173,29 @@ a:active {
 .cardbody2,
 .cardbody3 {
   font-size: 0.8rem;
+  background-color: #438f8c;
   border-left: 4px solid;
   border-right: 4px solid;
-  border-color: darkslategrey;
+  border-color: rgb(0, 255, 174);
   padding: 1rem;
 }
 
 .currenthead {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: bold;
-  font-family: "Bebas Neue", cursive;
-  color: darkslategrey;
-  background-color: #2f4353;
-  background-image: linear-gradient(315deg, #2f4353 0%, #d2ccc4 74%);
+  font-family: "Gamja Flower", cursive;
+  color: rgb(255, 0, 0);
+  background-color: #00f7ee;
   text-align: center;
+  border: 15px groove;
+  border-color: #ffffff;
 }
 
 .current {
   font-size: 1.6rem;
-  font-family: "Bebas Neue", cursive;
-  color: darkslategrey;
-  background-image: url(images/other/metal.jpg);
+  font-family: "Gamja Flower", cursive;
+  color: rgb(0, 255, 30);
+  background-image: url(images/other/grass.jpg);
   background-size: cover;
   text-align: center;
   padding-top: 1rem;
@@ -202,12 +204,11 @@ a:active {
 
 .currentdev {
   border: 20px solid transparent;
-  border-radius: 2rem 2rem 2rem 2rem;
   box-sizing: border-box;
   background: #b8c6df;
-  background: -moz-linear-gradient(top, #828282 0%, #a8a8a8 100%);
-  background: -webkit-linear-gradient(top, #828282 0%, #a8a8a8 100%);
-  background: linear-gradient(to bottom, #828282 0%, #a8a8a8 100%);
+  background: -moz-linear-gradient(top, #a5550a 0%, #bf783e 100%);
+  background: -webkit-linear-gradient(top, #a5550a 0%, #bf783e 100%);
+  background: linear-gradient(to bottom, #a5550a 0%, #bf783e 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8c6df', endColorstr='#6d88b7',GradientType=0 );
   width: fit-content;
   display: flex;
@@ -218,12 +219,11 @@ a:active {
 
 .currentinfo {
   border: 20px solid transparent;
-  border-radius: 2rem 2rem 2rem 2rem;
   box-sizing: border-box;
   background: #b8c6df;
-  background: -moz-linear-gradient(top, #828282 0%, #a8a8a8 100%);
-  background: -webkit-linear-gradient(top, #828282 0%, #a8a8a8 100%);
-  background: linear-gradient(to bottom, #828282 0%, #a8a8a8 100%);
+  background: -moz-linear-gradient(top, #a5550a 0%, #bf783e 100%);
+  background: -webkit-linear-gradient(top, #a5550a 0%, #bf783e 100%);
+  background: linear-gradient(to bottom, #a5550a 0%, #bf783e 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8c6df', endColorstr='#6d88b7',GradientType=0 );
   width: fit-content;
   display: block;
@@ -238,12 +238,11 @@ a:active {
 
 .currentpub {
   border: 20px solid transparent;
-  border-radius: 2rem 2rem 2rem 2rem;
   box-sizing: border-box;
   background: #b8c6df;
-  background: -moz-linear-gradient(top, #828282 0%, #a8a8a8 100%);
-  background: -webkit-linear-gradient(top, #828282 0%, #a8a8a8 100%);
-  background: linear-gradient(to bottom, #828282 0%, #a8a8a8 100%);
+  background: -moz-linear-gradient(top, #a5550a 0%, #bf783e 100%);
+  background: -webkit-linear-gradient(top, #a5550a 0%, #bf783e 100%);
+  background: linear-gradient(to bottom, #a5550a 0%, #bf783e 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8c6df', endColorstr='#6d88b7',GradientType=0 );
   width: fit-content;
   display: flex;
@@ -258,8 +257,8 @@ a:active {
 
 .gamebig {
   border: 20px solid transparent;
-  border-image: url(images/other/metalframe.png) 30 stretch;
-  border-radius: 2rem 2rem 2rem 2rem;
+  border-image: url(images/other/flowerframe.png) 30 stretch;
+  border-radius: 1rem 1rem 1rem 1rem;
   box-sizing: border-box;
   background-color: silver;
   margin-bottom: 1rem;
@@ -292,12 +291,11 @@ a:active {
 .gamedesc {
   font-size: 1rem;
   border: 20px solid transparent;
-  border-radius: 2rem 2rem 2rem 2rem;
   box-sizing: border-box;
   background: #b8c6df;
-  background: -moz-linear-gradient(top, #828282 0%, #a8a8a8 100%);
-  background: -webkit-linear-gradient(top, #828282 0%, #a8a8a8 100%);
-  background: linear-gradient(to bottom, #828282 0%, #a8a8a8 100%);
+  background: -moz-linear-gradient(top, #a5550a 0%, #bf783e 100%);
+  background: -webkit-linear-gradient(top, #a5550a 0%, #bf783e 100%);
+  background: linear-gradient(to bottom, #a5550a 0%, #bf783e 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8c6df', endColorstr='#6d88b7',GradientType=0 );
   width: 75ch;
   display: block;
@@ -311,9 +309,6 @@ a:active {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #755ba8;
-  border: 1px solid black;
-  color: black;
   box-sizing: border-box;
   padding-left: 1vw;
   padding-right: 1vw;
@@ -329,9 +324,6 @@ a:active {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: yellow;
-  border: 1px solid red;
-  color: red;
   text-align: center;
   box-sizing: border-box;
   padding-left: 1vw;
@@ -343,7 +335,7 @@ a:active {
 }
 
 .gametitle {
-  border: 3px solid darkslategrey;
+  border: 3px dotted rgb(0, 255, 30);
   width: fit-content;
   text-align: center;
   margin: auto;
@@ -353,11 +345,12 @@ a:active {
 .hours {
   font-size: 2rem;
   font-weight: bold;
-  font-family: "Bebas Neue", cursive;
+  font-family: "Gamja Flower", cursive;
   text-align: center;
-  color: darkslategrey;
+  color: rgb(0, 255, 174);
   background-color: #fee2f8;
-  background-image: linear-gradient(315deg, #fee2f8 0%, #dcf8ef 74%);
+  background-image: url(images/other/water.jpg);
+  background-size: 100%;
 }
 
 .hourbody {
@@ -373,16 +366,16 @@ a:active {
 .row {
   font-size: 1.2rem;
   border: 20px solid transparent;
-  border-radius: 2rem 2rem 2rem 2rem;
   box-sizing: border-box;
   background: #b8c6df;
-  background: -moz-linear-gradient(top, black 0%, grey 100%);
-  background: -webkit-linear-gradient(top, #828282 0%, black 100%);
-  background: linear-gradient(to bottom, black 0%, #161636 100%);
+  background: -moz-linear-gradient(top, rgb(168, 168, 168) 0%, grey 100%);
+  background: -webkit-linear-gradient(top, #828282 0%, rgb(168, 168, 168) 100%);
+  background: linear-gradient(to bottom, rgb(168, 168, 168) 0%, #7e7e7e 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b8c6df', endColorstr='#6d88b7',GradientType=0);
   display: block;
   margin: auto;
   margin-top: 1rem;
+  padding-top: 0.2rem;
   width: 45ch;
 }
 
@@ -435,11 +428,11 @@ a:active {
 }
 
 .credlink1:hover {
-  color: yellow;
+  color: rgb(255, 130, 245);
 }
 
 .credlink2:hover {
-  color: goldenrod;
+  color: rgb(255, 0, 0);
 }
 
 .title-text:hover {
@@ -525,6 +518,7 @@ a:active {
 
   .currenthead {
     font-size: 1.5rem;
+    border: 7px groove;
   }
 
   .currentppl {
